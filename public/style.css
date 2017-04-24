@@ -1,0 +1,42 @@
+body {
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+table tr, td{
+  border: 1px solid #a55797;
+  font-size: 2em;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+.box {
+  width: 140px;
+  height: 140px;
+}
+
+#heading {
+  text-align: center;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  color: #0bef1b;
+}
+
+#notice{
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#restartButton {
+  font-weight: 200;
+  font-size: 1em;
+  background-color: #f7f7f7;
+  border: 1px dashed gray;
+  padding: 5px;
+  margin: 5px auto;
+  display: block;
+}
