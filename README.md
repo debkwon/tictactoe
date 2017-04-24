@@ -18,3 +18,10 @@ A 'Restart' button allows you to start a new game and continue playing.
 
 Currently, the game is set up so that it's always X's turn first. Once you've had a winner, the winner will go first after you restart. If you wanted, you can randomize the turns during the setup.
 
+Yes, but what does it look like?
+---------
+
+It looks like this:
+
+![tic_tac_toe_view](https://cloud.githubusercontent.com/assets/8889161/25318586/429e3f14-2860-11e7-81ce-71771345e1af.png)
+
