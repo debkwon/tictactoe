@@ -31,14 +31,14 @@ const restartGame = () => {
   setupGame(document.winner);
 }
 
-const setNotification = (notice) => document.getElementById('notice').innerText = notice;
+const setNotification = (notice) => document.getElementById('notice').textContent = notice;
 
 const markBox = (box) => {
   //if there's no current winner
   if (!document.winner) {
     //and if the box is empty, proceed with setting the box to the current player and switch player turns
-    if (!box.innerText) {
-      box.innerText = document.turn;
+    if (!box.textContent) {
+      box.textContent = document.turn;
       switchTurn(document.turn);
     }
     else setNotification("Woops, try an empty box");
@@ -85,6 +85,6 @@ const checkRow = (b1,b2,b3,player) => {
   return hasMatchingRow;
 }
 
-const fetchBoxMark = (number) => document.getElementById("box" + number).innerText;
+const fetchBoxMark = (number) => document.getElementById("box" + number).textContent;
 
 
